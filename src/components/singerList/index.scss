@@ -1,0 +1,32 @@
+.list-view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #222;
+}
+.title{
+  width: 100%;
+  clear: both;
+  color: #686868;
+  .parent_view {
+    padding-bottom: 30Px;
+    .title_h2{
+      width: 100%;
+      text-align: left;
+      padding-left: 30Px;
+      background: #333;
+      height: 30Px;
+      font-size: 12Px;
+      line-height: 30Px;
+      display: block;
+    }
+
+  }
+  .parent_view:last-of-type {
+      padding-bottom: 120Px;
+  }
+
+
+}
+

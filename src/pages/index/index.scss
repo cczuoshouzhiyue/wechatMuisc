@@ -1,0 +1,59 @@
+.index{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  background: #222;
+  .header{
+    width: 100%;
+    height: 50Px;
+    text-align: center;
+    line-height: 50Px;
+    .title{
+      color: #ffcd32;
+    }
+  }
+  .list{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    overflow: hidden;
+    .item{
+      width: 100%;
+      float: left;
+      height: 60Px;
+      margin-bottom: 15Px;
+      .img{
+        width: 60Px;
+        height: 60Px;
+        float: left;
+        image{
+          width: 60Px;
+          height: 60Px;
+        }
+      }
+      .content {
+        width: 255Px;
+        float: left;
+        .h2{
+          text-align: left;
+          padding-left: 20Px;
+          font-size: 14Px;
+          padding-top: 10Px;
+          display: block;
+          color: #fff;
+        }
+        .p{
+          text-align: left;
+          padding-left: 20Px;
+          font-size: 14Px;
+          padding-top: 10Px;
+          color: #656565;
+          display: block;
+        }
+      }
+    }
+  }
+
+}
+

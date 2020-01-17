@@ -1,0 +1,31 @@
+
+.item{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 64Px;
+  font-size: 16Px;
+  line-height: 64Px;
+  padding: 0 20PX;
+  .content{
+    flex: 1;
+    line-height: 20Px;
+    overflow: hidden;
+    text-align: left;
+    .name_h2{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      color: #fff;
+      display: block;
+    }
+    .desc_p{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      margin-top: 4Px;
+      color: rgba(255, 255, 255, 0.3);
+      display: block;
+    }
+  }
+}

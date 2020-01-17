@@ -1,0 +1,21 @@
+.list{
+  width: 100%;
+  .child_view{
+    display: flex;
+    padding: 20Px 0 0 30Px;
+    .avatar{
+      width: 50Px;
+      height: 50Px;
+      border-radius: 25Px;
+
+    }
+    .name{
+      flex: 1;
+      display: inline-block;
+      text-align: left;
+      line-height: 50Px;
+      padding-left: 25Px;
+      font-size: 14Px;
+    }
+  }
+}

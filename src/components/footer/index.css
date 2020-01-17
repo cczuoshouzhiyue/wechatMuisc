@@ -1,0 +1,18 @@
+.index {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  height: 80px;
+  line-height: 80px;
+}
+
+.index .item {
+  flex: 1;
+}
+
+.index .active {
+  color: #6699ff;
+}

@@ -1,0 +1,17 @@
+.index{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: #222;
+    height: 80px;
+    line-height: 80px;
+    .item{
+        flex: 1;
+      color: #fff
+    }
+    .active {
+        color: #ffcd32
+    }
+}
